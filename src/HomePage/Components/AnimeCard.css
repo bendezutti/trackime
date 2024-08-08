@@ -1,0 +1,14 @@
+.card {
+  width: 500px; /* Set the card's width */
+  height: 500px; /* Set the card's height */
+  border: 1px solid #ddd;
+  overflow: hidden; /* Ensures no overflow outside the card */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+}
+
+.animeImage img{
+  width: 100%; /* Fill the card horizontally */
+  height: 100%; /* Fill the card vertically */
+  object-fit: cover; /* Ensures the image covers the card area */
+}

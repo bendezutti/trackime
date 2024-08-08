@@ -1,0 +1,8 @@
+.navbar{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+    padding: 1rem;
+    background-color: rgba(235, 235, 235, 0.514);
+}
