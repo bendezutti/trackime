@@ -9,6 +9,9 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path="/" element={<HomePage/>} />
+          <Route path="/mylist" element={<HomePage/>} />
+          <Route path="/register" element={<HomePage/>} />
+          <Route path="/login" element={<HomePage/>} />
        </Routes>
       </Router>
     </div>
